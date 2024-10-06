@@ -1,0 +1,37 @@
+2024-09-04 13:50:11.992 | INFO     | pg_sql.database:create_database:44 - 所有表创建成功
+2024-09-04 14:00:11.327 | INFO     | pg_sql.database:create_database:44 - 所有表创建成功
+2024-09-04 14:49:00.180 | INFO     | pg_sql.database:create_database:44 - 所有表创建成功
+2024-09-04 14:49:01.515 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49382 - "GET / HTTP/1.1" 404
+2024-09-04 14:49:05.633 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49395 - "GET /docs HTTP/1.1" 200
+2024-09-04 14:49:05.843 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49397 - "GET /openapi.json HTTP/1.1" 200
+2024-09-04 14:49:08.422 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49400 - "GET /face/generate_uuid HTTP/1.1" 200
+2024-09-04 14:49:27.324 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49679 - "GET /face/generate_uuid HTTP/1.1" 200
+2024-09-04 14:53:43.104 | INFO     | pg_sql.database:create_database:44 - 所有表创建成功
+2024-09-04 14:53:46.248 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49833 - "GET /docs HTTP/1.1" 200
+2024-09-04 14:53:46.570 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49835 - "GET /openapi.json HTTP/1.1" 200
+2024-09-04 14:53:52.949 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49851 - "GET /face/generate_uuid HTTP/1.1" 200
+2024-09-04 14:53:59.609 | INFO     | pg_sql.database:create_database:44 - 所有表创建成功
+2024-09-04 14:54:04.896 | INFO     | routers.face_recognition:upload_photo:35 - 请求方法: POST 请求路径: /face/upload_photo
+2024-09-04 14:54:04.897 | INFO     | routers.face_recognition:upload_photo:36 - photo_type: front
+2024-09-04 14:54:06.764 | INFO     | httpx._client:_send_single_request:1786 - HTTP Request: POST http://192.168.10.97:8001/front_face "HTTP/1.1 200 OK"
+2024-09-04 14:54:06.796 | INFO     | routers.face_recognition:upload_photo:79 - front 照片已保存到数据库并通过校验
+2024-09-04 14:54:06.797 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49867 - "POST /face/upload_photo HTTP/1.1" 200
+2024-09-04 14:54:08.379 | INFO     | pg_sql.database:create_database:44 - 所有表创建成功
+2024-09-04 14:54:16.614 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49878 - "POST /face/upload_photo HTTP/1.1" 404
+2024-09-04 14:54:19.090 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49881 - "POST /face/upload_photo HTTP/1.1" 404
+2024-09-04 14:54:37.079 | INFO     | pg_sql.database:create_database:44 - 所有表创建成功
+2024-09-04 14:54:40.465 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49889 - "POST /face/upload_photo HTTP/1.1" 404
+2024-09-04 14:54:50.602 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49895 - "GET /docs HTTP/1.1" 200
+2024-09-04 14:54:50.969 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49897 - "GET /openapi.json HTTP/1.1" 200
+2024-09-04 14:55:05.925 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49910 - "GET /docs HTTP/1.1" 200
+2024-09-04 14:55:06.103 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49912 - "GET /openapi.json HTTP/1.1" 200
+2024-09-04 14:55:56.631 | INFO     | pg_sql.database:create_database:44 - 所有表创建成功
+2024-09-04 14:55:58.400 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49946 - "GET /docs HTTP/1.1" 200
+2024-09-04 14:55:58.587 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49949 - "GET /openapi.json HTTP/1.1" 200
+2024-09-04 14:56:03.134 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49957 - "GET /docs HTTP/1.1" 200
+2024-09-04 14:56:03.337 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49960 - "GET /openapi.json HTTP/1.1" 200
+2024-09-04 14:56:34.978 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49985 - "GET / HTTP/1.1" 404
+2024-09-04 14:56:39.311 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49989 - "GET /docs HTTP/1.1" 200
+2024-09-04 14:56:39.394 | INFO     | uvicorn.protocols.http.h11_impl:send:476 - 192.168.10.59:49991 - "GET /openapi.json HTTP/1.1" 200
+2024-09-04 14:59:08.826 | INFO     | pg_sql.database:create_database:44 - 所有表创建成功
+2024-09-04 15:00:55.811 | INFO     | pg_sql.database:create_database:38 - 所有表创建成功
